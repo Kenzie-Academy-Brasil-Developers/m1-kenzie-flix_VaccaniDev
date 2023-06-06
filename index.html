@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KENZIEFLIX</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./reset.css" media="screen">
+    <link rel="stylesheet" href="./style.css" media="screen">
 </head>
+
 <body>
     <header>
         <img src="img/logo.png" alt="KENZIEFLIX">
+        <h1>Quem está assistindo?</h1>
     </header>
-    <section>
-        <h1>Quem está assistindo?</h1><br>
-        <img src="img/pink.png" alt="Pink_img">
-        <p>
-            Aline
-        </p>
-    </section>
-    <section>
-        <img src="img/panda.png" alt="Panda_img">
-        <p>
-            Pedrinho
-        </p>
-    </section>
-    <section>
-        <img src="img/robot.png" alt="Robot_img">
-        <p>
-            Júlia
-        </p>
-    </section>
-    <section>
-        <img src="img/plus.png" alt="Plus_img">
-        <p>
-            Adicionar perfil
-        </p>
-    </section>
+    <main>
+        <div class="pao baunilha">
+            <img class="card" src="img/pink.png" alt="Pink_img">
+            <figcaption class="nome">
+                Aline
+            </figcaption>
+        </div>
+        <div id="manteiga">
+            <img class="card" src="img/panda.png" alt="Panda_img">
+            <figcaption class="nome">
+                Pedrinho
+            </figcaption>
+        </div>
+        <div>
+            <img class="card" src="img/robot.png" alt="Robot_img">
+            <figcaption class="nome">
+                Júlia
+            </figcaption>
+        </div>
+        <div>
+            <img class="card" src="img/plus.png" alt="Plus_img">
+            <figcaption class="nome">
+                Adicionar perfil
+            </figcaption>
+        </div>
+        <section>
+            <button class="botao"><span class="texto_botao">Gerenciar Perfis</span></button>
+        </section>
+    </main>
 </body>
+
 </html>
