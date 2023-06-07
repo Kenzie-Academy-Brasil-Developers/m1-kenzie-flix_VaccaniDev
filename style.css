@@ -18,37 +18,43 @@ h1 {
     font-size: 40px;
 }
 
-figcaption {
-    color:gray;
-}
-
-main {
-    margin: 100px;
+.conteiner {
+    margin: 50px;
     width:1000px;
+    display: inline-flex;
+    align-items:center;
 }
 
 div {
-    margin: 35px;
-    width: 20%;
-    list-style:none;
+    margin: 30px;
 }
 
-.card {
+.foto {
     width: 100%;
     border-radius: 10px;
+    border: 2px solid transparent
 }
+.foto:hover {
+    border: 2px solid white;
+}
+
 .nome {
     font-size: 22px;
     margin-top: 35px ;
+    color:gray;
 }
-
-section {
-    color:white;
+.nome:hover {
+    color:white
 }
 .botao {
     padding: 9px 30px 9px 30px;
     font-size: 24px;
-    border: solid 1px white;
+    border: solid 2px white;
     background-color: black;
     color:white
+}
+
+.botao:hover {
+    background-color: white;
+    color:black
 }
