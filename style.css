@@ -41,8 +41,8 @@ div {
 .nome {
     font-size: 22px;
     margin-top: 35px ;
-    color:gray;
 }
+
 .nome:hover {
     color:white
 }
@@ -57,4 +57,10 @@ div {
 .botao:hover {
     background-color: white;
     color:black
+}
+.teste {
+    color:grey
+}
+.teste:hover {
+    color: white
 }
