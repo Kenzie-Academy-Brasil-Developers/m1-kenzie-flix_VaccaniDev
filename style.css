@@ -18,6 +18,10 @@ h1 {
     font-size: 40px;
 }
 
+div {
+    margin: 30px;
+}
+
 .conteiner {
     margin: 50px;
     width:1000px;
@@ -25,15 +29,13 @@ h1 {
     align-items:center;
 }
 
-div {
-    margin: 30px;
-}
 
 .foto {
     width: 100%;
     border-radius: 10px;
     border: 2px solid transparent
 }
+
 .foto:hover {
     border: 2px solid white;
 }
@@ -46,21 +48,25 @@ div {
 .nome:hover {
     color:white
 }
+
 .botao {
     padding: 9px 30px 9px 30px;
     font-size: 24px;
     border: solid 2px white;
     background-color: black;
-    color:white
+    border-radius: 8px;
+    color:white;
 }
 
 .botao:hover {
     background-color: white;
-    color:black
+    color:black;
 }
+
 .teste {
     color:grey
 }
+
 .teste:hover {
     color: white
 }
