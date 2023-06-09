@@ -8,6 +8,9 @@ body {
     text-align: center;
 } 
 
+div {
+    margin: 30px;
+}
 .titulo {
     margin: 100px;
 }
@@ -15,10 +18,6 @@ body {
 .assistindo {
     color:#ffffff;
     font-size: 35px;
-}
-
-div {
-    margin: 30px;
 }
 
 .conteiner {
