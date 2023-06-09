@@ -8,9 +8,6 @@ body {
     text-align: center;
 } 
 
-div {
-    margin: 30px;
-}
 .titulo {
     margin: 100px;
 }
@@ -63,7 +60,9 @@ div {
 }
 
 .teste {
-    color:grey
+    color:grey;
+    margin: 30px;
+
 }
 
 .teste:hover {
